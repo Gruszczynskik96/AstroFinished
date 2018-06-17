@@ -113,7 +113,6 @@ public class FavouritesActivity extends AppCompatActivity {
         }
         arrayAdapter = new ArrayAdapter<>(this, R.layout.list_view_row, cityList);
         listView.setAdapter(arrayAdapter);
-        registerForContextMenu(listView);
     }
 
     public void addData(String record) {
