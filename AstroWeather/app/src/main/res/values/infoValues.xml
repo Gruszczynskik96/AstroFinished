@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="City">Lodz</string>
+
+    <string name="Latitude">51.5873166</string>
+
+    <string name="Longitude">19.7543569</string>
+
+    <string name="Refresh">1</string>
+
+    <string name="From_City">1</string>
+
+</resources>
