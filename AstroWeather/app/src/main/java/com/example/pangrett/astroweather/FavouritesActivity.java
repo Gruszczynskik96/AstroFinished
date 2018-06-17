@@ -87,6 +87,7 @@ public class FavouritesActivity extends AppCompatActivity {
                 String cityName = listView.getItemAtPosition(position).toString();
                 SharedPreferences.Editor edit = sharedPref.edit();
                 edit.putString("City", cityName);
+                edit.putString("From_City", "1");
                 edit.commit();
                 Intent myIntent = new Intent(FavouritesActivity.this, MainActivity.class);
                 startActivity(myIntent);
